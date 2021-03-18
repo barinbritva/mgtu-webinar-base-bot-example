@@ -1,7 +1,7 @@
 const {Telegraf} = require('telegraf')
 const {fetchRates} = require('./fetch-rates')
 
-const bot = new Telegraf('1787880448:AAG3zyZI3U9mRN7TIg81fG1tax9HZPdJWbs')
+const bot = new Telegraf('PUT TOKEN HERE')
 
 bot.start((ctx) => {
     console.info('payload', ctx.startPayload)
